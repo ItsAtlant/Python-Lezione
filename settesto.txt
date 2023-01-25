@@ -1,0 +1,10 @@
+SSSSSSSSSSSSSSSSSOOOOS LOLOLOLOOLLLLL
+
+set è modificiabile 
+frozenset è immutabile
+
+si dichiara con 
+x= set()
+...
+ciaooo
+provaaaa

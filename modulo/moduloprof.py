@@ -1,0 +1,1 @@
+#creare un file di mille righe con il numero della riga generato da una stringa causale

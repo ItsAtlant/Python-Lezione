@@ -1,0 +1,21 @@
+modulo è raccolta di classe e funzioni
+per usare un modulo si usa import
+libreria matematiche,grafiche,tempo ecc
+
+un file si puo cancellare creeare leggere modificare
+
+file di testo : html, txt, cvs , json
+filebinari : video immagini suoni dati
+
+aprendo un file, si puo aprire con
+lettura
+scrittura
+
+
+per aprire un file
+f = open(filename,mode)
+r = read
+w = write
+a = append, aggiunge alla fine 
+puoi anggiungere 
+b = per i file binari
