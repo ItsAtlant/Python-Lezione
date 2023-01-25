@@ -27,6 +27,6 @@ with open("filesenzapuntievirgole.txt","r") as f2:
                 if colonna[i] == parola:
                     print("parola trovata in colonna",i+1," e in riga",k+1)
                     word = True
-        if parola == False:
+        if word == False:
             print("non c`e la parola")
 
