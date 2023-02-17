@@ -1,4 +1,6 @@
 #if the user write and the leght of the text is even write it in a file even if its odd write it in a file odd
+
+#No output, need a debug
 print("Per uscire premi due volte invio")
 
 while True:
