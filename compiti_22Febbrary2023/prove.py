@@ -17,8 +17,9 @@ with open(r"C:\Users\DavideSoltys\Desktop\il mio github\Python-Lezione\compiti_2
     # write the contents of the response (r.content)
     # to a new file in binary mode.
     f.write(r.content)
+
 i = 0
-with open ("ChosenSite.html","r") as f:
+with open ("ChosenSite.html", encoding="utf8") as f:
     file = f.read()
     try:
         for x in range (len(file)):
