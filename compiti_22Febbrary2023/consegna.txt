@@ -1,0 +1,15 @@
+Creare una funziona che legga un file html
+importando il minimo numero di moduli e scrivendo il numero minimo di istruzioni
+legga il file da una cartella
+per ogni riga del file
+contrare tutte le volte che comprare la definizione di una classe stile
+contrare tutte le volte compare un link
+contare tutte le volte che compare la fedinizione di immagine
+scrivere in un file il report in una cartella
+
+scaricare la home page del corriere della sera sul desktop in html
+scaricare la home page della repubblica.it
+
+es 30 volte img
+30 volte un link
+12 definizione  di classe
