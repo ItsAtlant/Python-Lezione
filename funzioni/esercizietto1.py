@@ -9,6 +9,6 @@ while True:
     if numeri == "  ":
         break
     lista.append(int(numeri))
-    print(lista)
+    
 somma()
 

@@ -2,7 +2,13 @@
 
 #No output, need a debug
 print("Per uscire premi due volte invio")
-def primafunzione(nome):
+
+while True:
+    nome = input("Inserire il testo: ")
+    if nome == "  ":
+        break
+    lenght = len(nome)
+    def primafunzione(nome):
         def parifunzione(nome):
                 f = open("even.txt","w")
                 f.write(nome)
@@ -15,10 +21,4 @@ def primafunzione(nome):
             parifunzione(nome)
         else:
             disparifunzione(nome)
-while True:
-    nome = input("Inserire il testo: ")
-    if nome == "  ":
-        break
-    lenght = len(nome)
-    
     primafunzione()

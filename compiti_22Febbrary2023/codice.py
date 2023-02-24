@@ -6,15 +6,15 @@ import requests
 image_url = input("Inserisci il link: ")
   
 
-site = requests.get(image_url) 
+ciao = requests.get(image_url) 
   
 with open(r"C:\Users\DavideSoltys\Desktop\il mio github\Python-Lezione\compiti_22FEBBRARY2023\ChosenSite.html",'w') as f:
 
-    f.write(site.text)
+    f.write(ciao.text)
 
 i,k,c = 0,0,0
 
-with open ("ChosenSite.html") as f:
+with open (r"C:\Users\DavideSoltys\Desktop\il mio github\Python-Lezione\compiti_22FEBBRARY2023\ChosenSite.html") as f:
     file = f.read()
     for x in range (len(file)):
         if "img " == file[x:x+4]:
