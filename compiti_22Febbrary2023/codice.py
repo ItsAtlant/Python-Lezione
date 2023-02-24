@@ -1,16 +1,16 @@
-# TODO:far mettere il path del salvataggio del report 
-# TODO:Scrivere una funziona da riga 19 a 24
-# TODO:salvare il report in un altro file
+# TODO:Far mettere il path del salvataggio del report 
+# TODO:Scrivere una funziona da riga 19 a 24 e importarla esternamente
+# TODO:Salvare il report in un altro file
 import requests
 
 image_url = input("Inserisci il link: ")
   
 
-r = requests.get(image_url) 
+site = requests.get(image_url) 
   
 with open(r"C:\Users\DavideSoltys\Desktop\il mio github\Python-Lezione\compiti_22FEBBRARY2023\ChosenSite.html",'w') as f:
 
-    f.write(r.text)
+    f.write(site.text)
 
 i,k,c = 0,0,0
 
@@ -21,7 +21,7 @@ with open ("ChosenSite.html") as f:
             i = i + 1
         if "class=" == file[x:x+6]:
             k = k + 1
-        if "https" == file[x:x+5]:
+        if "href" == file[x:x+4]:
             c = c + 1
 
 print("Nel file ci sono:")
