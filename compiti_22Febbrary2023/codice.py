@@ -6,11 +6,11 @@ import requests
 image_url = input("Inserisci il link: ")
   
 
-ciao = requests.get(image_url) 
+site = requests.get(image_url) 
   
 with open(r"C:\Users\DavideSoltys\Desktop\il mio github\Python-Lezione\compiti_22FEBBRARY2023\ChosenSite.html",'w') as f:
 
-    f.write(ciao.text)
+    f.write(site.text)
 
 i,k,c = 0,0,0
 
