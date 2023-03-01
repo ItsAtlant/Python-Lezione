@@ -1,2 +1,0 @@
-come migliorare il codice:
-Prendere riga per riga, per evitare che lo ripete due volte
