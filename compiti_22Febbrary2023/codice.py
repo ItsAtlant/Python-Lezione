@@ -1,6 +1,6 @@
-# TODO:Far mettere il path del salvataggio del report 
+
 # TODO:Scrivere una funziona da riga 19 a 24 e importarla esternamente
-# TODO:Salvare il report in un altro file
+
 import requests
 
 link = input("Inserisci il link: ")
