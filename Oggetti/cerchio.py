@@ -15,4 +15,4 @@ class Cerchio(object):
         self.center = [x, y]
 
 mioCerchio = Cerchio([12,1],10)
-mioCerchio.draw(0)
+
